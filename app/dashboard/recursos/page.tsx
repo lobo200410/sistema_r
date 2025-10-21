@@ -39,8 +39,8 @@ export default async function RecursosPage() {
           </div>
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="mb-2 text-3xl font-bold text-gray-900">Mis Recursos Educativos</h1>
-              <p className="text-gray-600">Gestiona tus recursos de Canva, Genially, Flickbook y Lumi</p>
+              <h1 className="mb-2 text-3xl font-bold text-gray-900">Recursos Educativos</h1>
+              <p className="text-gray-600">Gestión de los recursos Canva, Genially, Flickbook y Lumi</p>
             </div>
             <ExportExcelButton resources={resources} />
           </div>

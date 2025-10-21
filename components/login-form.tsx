@@ -30,7 +30,7 @@ export function LoginForm() {
           </div>
         </div>
 
-         <h1 className="text-lg sm:text-xl font-bold text-center text-white px-2">Registro de Recursos Educativos</h1>
+         <h1 className="text-lg sm:text-xl font-bold text-center text-white px-2">Recursos Educativos</h1>
       </CardHeader>
 
       <form action={formAction}>
@@ -51,7 +51,7 @@ export function LoginForm() {
               id="username"
               name="username"
               type="text"
-              placeholder="nombre.apellido"
+              placeholder="Ej: juan.perez"
               required
               disabled={pending}
               className="bg-white border-0 h-9 text-gray-900 placeholder:text-gray-500 text-sm sm:text-base"
@@ -68,7 +68,7 @@ export function LoginForm() {
               id="password"
               name="password"
               type="password"
-              placeholder="••••••"
+              placeholder="password"
               required
               disabled={pending}
               className="bg-white border-0 h-9 text-gray-900 text-sm sm:text-base"
